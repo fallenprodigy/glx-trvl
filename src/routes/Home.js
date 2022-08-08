@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../componenets/Footer";
 import Navbar from "../componenets/Navbar";
 import Video from "../componenets/Video";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Video />
+      <Footer />
     </div>
   );
 };

@@ -43,8 +43,7 @@
     height: 100vh;
     transition: 0.3s;
     z-index: -1;
-    background: -webkit-linear-gradient(to right, #e74c3c, #000000);
-    background: linear-gradient(to right, #e74c3c, #000000);
+    background: rgba(0, 0, 0, 0.9);
   }
 
   .nav-menu.active {
