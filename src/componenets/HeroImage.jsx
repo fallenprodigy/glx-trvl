@@ -1,12 +1,12 @@
 import React from "react";
 import "./HeroImage.css";
 
-const HeroImage = () => {
+const HeroImage = (props) => {
   return (
     <div className="hero-img">
       <div className="heading">
-        <h1>PRICING</h1>
-        <p>Choose your trip.</p>
+        <h1>{props.heading}</h1>
+        <p>{props.text}</p>
       </div>
     </div>
   );

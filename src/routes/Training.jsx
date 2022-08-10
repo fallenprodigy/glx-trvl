@@ -1,19 +1,18 @@
 import React from "react";
-
 import Navbar from "../componenets/Navbar";
 import HeroImage from "../componenets/HeroImage";
-import PricingCards from "../componenets/Pricing";
+import TrainingSection from "../componenets/Training";
 import Footer from "../componenets/Footer";
 
-const Pricing = () => {
+const Training = () => {
   return (
     <div>
       <Navbar />
-      <HeroImage heading="PRICING" text="Choose your trip." />
-      <PricingCards />
+      <HeroImage heading="TRAINING." text="Pre-Flight & in-Flight Training." />
+      <TrainingSection />
       <Footer />
     </div>
   );
 };
 
-export default Pricing;
+export default Training;
